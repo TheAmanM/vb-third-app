@@ -1,0 +1,30 @@
+# Local secrets and signing keys
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.snk
+*service*account*.json
+*firebase-adminsdk*.json
+credentials*.json
+secrets.*
+
+# .NET build output and local IDE state
+[Bb]in/
+[Oo]bj/
+build/
+dist/
+out/
+.vs/
+*.user
+*.suo
+*.vbproj.user
+TestResults/
+packages/
+*.log
+.DS_Store
+Thumbs.db
